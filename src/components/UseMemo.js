@@ -6,7 +6,7 @@ const UseMemoExample = ({todos}) => {
     return todos.length;
   },[todos]);
 
-return <p>Total Todos: {totalTodos}</p>;
+return <p> Todos: {totalTodos}</p>;
 
 }
 export default UseMemoExample;
